@@ -18,7 +18,15 @@ function sum(a,b){
 
 function mean(sum, number){
     hence=sum/number;
-    there= "the mean of"+ number+" numbers is"+ hence
-    console.log(there)
-    return
+    console.log("the mean of"+ number+" numbers is"+ hence)
+}
+function arithmetic(x,y) {
+    var sum=(x,y) => x+y;
+    var subtract=(x,y) => x-y;
+    console.log (subtract(x,y));
+    console.log(sum(x,y));  
+}
+for(n=o; n<=19; n++)
+{
+    console.log( "I love Uganda");
 }
